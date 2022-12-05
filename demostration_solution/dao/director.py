@@ -1,5 +1,4 @@
-from dao.model.director import Director
-
+from demostration_solution.dao.model.director import Director
 
 class DirectorDAO:
     def __init__(self, session):

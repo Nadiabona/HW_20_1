@@ -1,6 +1,4 @@
-from dao.director import DirectorDAO
-
-
+from demostration_solution.dao.director import DirectorDAO
 class DirectorService:
     def __init__(self, dao: DirectorDAO):
         self.dao = dao
